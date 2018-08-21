@@ -4,13 +4,13 @@
 
 1.  vagrant로 우분투 설치
 
-   ```
-   vagrant init ubuntu/xenial64
+    ```
+    vagrant init ubuntu/xenial64
    
-   vagrant up
+    vagrant up
    
-   vagrant ssh
-   ```
+    vagrant ssh
+    ```
 
 2. 설치 명령어
 
