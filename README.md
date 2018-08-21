@@ -1,12 +1,19 @@
 # Hyperledger-Fabric-prerequisites-installation
 하이퍼레져 패브릭을 위한 사전 환경 설치
 
-1.	vagrant로 우분투 설치
-vagrant init ubuntu/xenial64
-vagrant up
-vagrant ssh
+하이퍼레져 패브릭을 위한 사전 환경 설치
 
-2.	설치 명령어
+1. vagrant로 우분투 설치
+
+   ```
+   vagrant init ubuntu/xenial64
+   vagrant up
+   vagrant ssh
+   ```
+
+2. 설치 명령어
+
+```
 sudo apt -y update
 sudo apt install -y curl
 sudo apt install -y docker.io
@@ -29,3 +36,5 @@ sudo npm install --global grpc --unsafe
 export GOPATH=/home/vagrant/go
 export PATH=/usr/lib/go-1.9/bin:$GOPATH/bin:$PATH
 mkdir /home/vagrant/go
+```
+
